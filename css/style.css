@@ -53,3 +53,55 @@ footer {
     display: inline-block;
     padding: 0px 7px;
   }
+  /* My UX Skills Section using CSS flex*/
+h1 {
+  text-align: center;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 10px;
+  flex-direction: row;
+}
+/* My Work Section Constructed using CSS Grid*/
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color: #EBEBEB;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 200px;
+  grid-template-areas:
+  "myArea"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: px;
+}
+h3 {
+  text-align: center;
+}
+@media only screen and (max-width: 600){
+  .workGrid {
+    grid-template-rows: 200px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "myArea"
+    ;
+  }
+}
