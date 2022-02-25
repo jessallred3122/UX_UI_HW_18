@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #373738;
+    padding: 15px;
+}
+.heading {
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 30px;
+}
+header p {
+    display: inline-block;
+    text-align: center;
+}
+header li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+header ul {
+    float: right;
+    color: white;
+}
+.herolmg {
+background-color: #EBEBEB;
+  padding: 100px 15px;
+  text-align: center;
+} 
+.content {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+button {
+    padding: 15px;
+    background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+footer {
+    background-color: #373738;
+    padding: 5px;
+    color: white;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
